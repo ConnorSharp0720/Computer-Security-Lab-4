@@ -31,12 +31,11 @@ int main ()
     BN_mod_exp(m, C, d, n, ctx);
 
     // Prints out all of or values for easy viewing
-    printBN("E value = ", e);
     printBN("N value = ", n);
     printBN("C value = ", C);
     printBN("D value = ", d);
 
-    printBN("Ciphertext M value = ", m);
+    printBN("Plaintext M value = ", m);
 
     return 0;
 }

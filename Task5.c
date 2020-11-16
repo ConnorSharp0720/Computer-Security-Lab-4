@@ -42,5 +42,8 @@ int main ()
     printBN("Signed value S = ", s);
     printBN("New Signed value S2 = ", s2);
 
+    printBN("Verified value M = ", m);
+    printBN("New Verified value M2 = ", m2);
+
     return 0;
 }

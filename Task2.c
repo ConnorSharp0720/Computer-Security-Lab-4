@@ -34,7 +34,6 @@ int main ()
     printBN("E value = ", e);
     printBN("N value = ", n);
     printBN("M value = ", M);
-    printBN("D value = ", d);
 
     // Prints our ciphertext value
     printBN("Ciphertext C value = ", c);

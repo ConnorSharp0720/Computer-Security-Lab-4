@@ -36,9 +36,9 @@ int main ()
     BN_mod_exp(s2, M2, d, n, ctx);
 
     // Prints out all of or values for easy viewing
-    printBN("E value = ", e);
     printBN("N value = ", n);
     printBN("M value = ", M);
+    printBN("M2 value = ", M2);
     printBN("D value = ", d);
 
     printBN("Signed value S = ", s);
